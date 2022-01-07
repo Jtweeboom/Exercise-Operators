@@ -39,13 +39,3 @@ print(population_count_spain > population_count_over or population_count_switzer
 #7 Exactly one of the two countries has a population count of over 10 million.
 if ((population_count_spain>population_count_spain) and (population_count_switzerland <population_count_over)) or (population_count_spain<population_count_over) and (population_count_switzerland>population_count_over): Exactly_one_of_the_two_has_population_count_of_over_10_milion = True
 else: Exactly_one_of_the_two_has_population_count_of_over_10_milion = False
-
-
-
-
-
-if ((population_count_spain > population_count_over) and (population_count_switzerland < population_count_over)) or ((population_count_spain < population_count_over) and (population_count_switzerland > population_count_over)): 
- Exactly_one_of_the_two_has_population_count_of_over_10_milion = True
-else: Exactly_one_of_the_two_has_population_count_of_over_10_milion =  False
-
-print(Exactly_one_of_the_two_has_population_count_of_over_10_milion)
